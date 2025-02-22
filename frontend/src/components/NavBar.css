@@ -1,0 +1,32 @@
+
+li{
+    list-style-type: none;
+    padding: 0;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   border: 5px solid #ccc;
+   border-radius: 10px;
+    padding-right: 10px;
+    background: rgb(98, 152, 100);
+    padding: 10px;
+    width: 90%;
+    height: 5vh;
+   
+}
+
+.active-link{
+    background-color: #776493;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px
+}
+
+ul li a{
+    text-decoration: none;
+}
